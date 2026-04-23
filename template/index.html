@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Blog Dev</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background: #f4f4f4; }
+        .post { background: white; padding: 30px; margin-bottom: 20px; border-radius: 8px; shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h1 { color: #333; border-bottom: 2px solid #333; }
+        code { background: #eee; padding: 2px 5px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Meu Blog Pessoal</h1>
+    
+    {% for post in posts %}
+        <div class="post">
+            {{ post | safe }}
+        </div>
+    {% endfor %}
+</body>
+</html>
