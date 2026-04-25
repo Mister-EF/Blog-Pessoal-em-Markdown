@@ -81,5 +81,5 @@ print("Hello, World!")
 - Auto-creates the `posts/` folder on first run with a setup prompt
 - Clean card-based layout with inline CSS — no external stylesheets needed
 - Zero frontend dependencies — pure Flask, Jinja2, and standard Markdown
-
+```
 Thank you for your attention!
