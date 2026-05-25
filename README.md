@@ -1,6 +1,6 @@
 # Personal Markdown Blog
 
-A full-stack bridge using a Python backend (Flask) to process local `.md` files and serve them through styled HTML/CSS templates for a seamless reading experience. Write posts in Markdown, run the server, and your blog renders automatically — no CMS, no database, no overhead.aa
+A full-stack bridge using a Python backend (Flask) to process local `.md` files and serve them through styled HTML/CSS templates for a seamless reading experience. Write posts in Markdown, run the server, and your blog renders automatically — no CMS, no database, no overhead.
 
 ---
 
